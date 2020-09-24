@@ -1,0 +1,49 @@
+/* MAIN SECTION */
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 2rem;
+}
+
+ul li {
+    margin: 1rem;
+    font-size: 20px;
+}
+
+/* Main screen text */
+.logo-text {
+    margin-top: 12rem;
+    margin-left: 4rem;
+}
+
+.logo-text .main-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-text h1 {
+    font-size: 90px;
+}
+
+.main-text button {
+    margin-left: 2rem;
+    height: 65px;
+    width: 140px;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #8e44ad;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-text button:hover {
+    cursor: pointer;
+    background-color: #843ea1;
+    transition: background-color 0.5s;
+}
+
+.sub-text {
+    margin-left: 4rem;
+}
