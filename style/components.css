@@ -19,7 +19,12 @@ a {
 }
 
 /* REUSABLE COMPONENTS */
+header {
+    margin: 2rem;
+    background-color: #ecf0f1;
+}
+
 .container {
     max-width: 1350px;
-    margin: 0 auto;
+    margin: 3rem auto;
 }

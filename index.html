@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/main.css">
-    <link rel="stylesheet" href="./style/components.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/components.css">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./main.js">
     <title>Collancer | Home</title>
 </head>
 <body>
@@ -16,8 +18,13 @@
                 <ul>
                     <li><a href="#">How It Works</a></li>
                     <li><a href="#">Advantages</a></li>
-                    <li><a href="#">Log In</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="./html/profile.html">Log In</a></li>
+                    <li class="popup">
+                        <a href="#">Sign Up</a>
+                        <div class="sign-up hidden">
+                            
+                        </div>
+                    </li>
                 </ul>
             </nav>
     
@@ -29,7 +36,59 @@
                 <div class="sub-text">
                     <h2>Freelancing Designed for College Students</h2>
                 </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for services...">
+                </div>
             </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section id="services">
+        <div class="container">
+            <div class="grid-container">
+                <a href="#">
+                    <div class="grid-item">
+                        <p>Programming & IT</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="grid-item">
+                        <p>Graphics & Design</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="grid-item">
+                        <p>Photography</p>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="grid-item">
+                        <p>Proofreading & Writing Services</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="works">
+        <div class="container">
+            <h2>How It Works</h2>
+        </div>
+    </section>
+
+    <!-- Advantages -->
+    <section id="advantages">
+        <div class="container">
+            <h2>Advantages</h2>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+
         </div>
     </section>
 </body>
