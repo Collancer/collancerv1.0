@@ -127,3 +127,13 @@ form .signup-link a{
 form .signup-link a:hover{
     text-decoration: underline;
 }
+
+.center-signup form .data label span {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.center-signup .btn {
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
