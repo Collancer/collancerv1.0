@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="./style/components.css">
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/login.css">
-    <script type="text/javascript" src="main.js"></script>
+    <!-- JS script -->
+    <script type="text/javascript" src="main.js" async></script>
     <title>Collancer | Home</title>
 </head>
 <body>
     <!-- Login -->
     <div class="center-login">
         <div class="container-login">
-            <label type="checkbox" id="hide_login" class="close-btn">x</label>
-            <div class="text">Login Form</div>
+            <label type="checkbox" class="close-btn">x</label>
+            <div class="text">Login</div>
             <form action="#">
                 <div class="data">
                     <label>Email or Username</label>
@@ -31,7 +32,25 @@
                     <div class="inner"></div>
                     <button type="submit">login</button>
                 </div>
-                <div class="signup-link">Not a member? <a href="#">Signup now</a> </div>
+                <div class="signup-link">Not a member? <a href="#">Sign up now</a> </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Sign Up -->
+    <div class="center-signup">
+        <div class="container-login">
+            <label type="checkbox" class="close-btn">x</label>
+            <div class="text">Sign Up</div>
+            <form action="#">
+                <div class="data">
+                    <label>Email <br><span>(please enter your school email for verification)</span></label>
+                    <input type="text" required>
+                </div>
+                <div class="btn">
+                    <div class="inner"></div>
+                    <button type="submit">Continue</button>
+                </div>
             </form>
         </div>
     </div>
@@ -44,12 +63,7 @@
                     <li><a href="#">How It Works</a></li>
                     <li><a href="#">Advantages</a></li>
                     <li><a href="#" id="show_login">Log In</a></li>
-                    <li class="popup">
-                        <a href="#">Sign Up</a>
-                        <div class="sign-up hidden">
-                            
-                        </div>
-                    </li>
+                    <li><a href="#" id="show_signup">Sign Up</a></li>
                 </ul>
             </nav>
     
