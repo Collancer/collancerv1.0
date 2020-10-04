@@ -1,6 +1,7 @@
 window.addEventListener('load', function () {
     const signup = document.querySelector('#show_signup');
     const exit = document.querySelectorAll('.close-btn');
+    const continueButton = document.querySelector('#continue-signup');
 
     // show signup form
     signup.addEventListener('click', () => {
@@ -16,6 +17,10 @@ window.addEventListener('load', function () {
     exit.forEach(item => {
         item.addEventListener('click', () => {
             item.parentElement.style.display = "none";
-        })
-    })
+        });
+    });
+
+    continueButton.addEventListener('click', () => {
+       window.location = "./html/signup.html";
+    });
 });
