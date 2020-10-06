@@ -136,10 +136,12 @@ form .signup-link a:hover{
     margin-top: 5rem;
 }
 
-/* SIGN-UP POPUP */
+/* 
+ SIGN-UP POPUP 
 .center-signup .btn .inner {
-    margin-top: 20px;
+   margin-top: 20px;  FIX THIS BUG
 }
+*/
 
 /* MAIN SIGN-UP FORM STYLING */
 #signup-body {
