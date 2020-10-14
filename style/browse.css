@@ -1,0 +1,22 @@
+/* BROWSE CSS */
+.logo {
+    background-color: #ffffff;
+    font-size: 40px;
+}
+
+.search-bar {
+    margin-top: 10px;
+}
+
+.search-bar button {
+    margin-left: 1rem;
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #8e44ad;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
