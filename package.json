@@ -1,0 +1,22 @@
+{
+  "name": "collancer",
+  "version": "1.0.0",
+  "description": "Locality community-based freelancing application",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collancer/collancerv1.0.git"
+  },
+  "author": "Victor Wei, Bory Abdurakhmonov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Collancer/collancerv1.0/issues"
+  },
+  "homepage": "https://github.com/Collancer/collancerv1.0#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
