@@ -1,4 +1,33 @@
 /* ====================================== */
+/* GENERIC STYLING */
+/* ====================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+// REUSABLE COMPONENTS
+header {
+    .row:last-child {
+        padding-left: 4rem;
+    }
+}
+
+/* ====================================== */
 /* HOME PAGE */
 /* ====================================== */
 .jumbotron {
@@ -35,9 +64,13 @@ input {
         width: 50%;
         height: 80%;
     }
+
+    button {
+        width: 200px;
+    }
 }
 
-button {
-    width: 200px;
-}
+/* ====================================== */
+/* BROWSE PAGE */
+/* ====================================== */
 
