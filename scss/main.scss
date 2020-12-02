@@ -1,0 +1,104 @@
+@import 'variables';
+/* ====================================== */
+/* GENERIC STYLING */
+/* ====================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #333333;
+}
+
+// REUSABLE COMPONENTS
+header {
+    .row:last-child {
+        padding-left: 4rem;
+    }
+}
+
+/* ====================================== */
+/* HOME PAGE */
+/* ====================================== */
+.jumbotron {
+    margin-top: 4rem;
+    width: 600px;
+}
+
+button {
+    height: 60px;
+    width: 100px;
+    align-self: center;
+}
+
+input {
+    background-color: grey;
+}
+
+/* SERVICES SECTION */
+#services {
+    margin-top: 9rem;
+}
+/* card class */
+.card {
+    height: 400px;
+}
+
+/* ====================================== */
+/* SIGN-UP PAGE */
+/* ====================================== */
+#signup-form {
+    margin-top: 6rem;
+
+    .card {
+        width: 50%;
+        height: 80%;
+    }
+
+    a {
+        width: 150px;
+    }
+}
+
+/* ====================================== */
+/* PROFILE PAGE */
+/* ====================================== */
+#profile {
+    .col-4 {
+        .card {
+            height: 800px;
+            background-color: $primary-color;
+            border: none;
+            margin-right: 3rem;
+
+            img {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                margin-top: 40px;
+            }
+
+            button {
+                width: 50px;
+                height: 30px;
+                margin-top: 0.25rem;
+            }
+        }
+    }
+
+    .col-8 {
+        .card {
+            height: 40%;
+            background-color: $grey-color;
+            border: none;
+            margin-bottom: 3rem;
+        }
+    }
+}

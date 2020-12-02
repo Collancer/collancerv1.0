@@ -3,25 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style/components.css">
-    <link rel="stylesheet" href="../style/browse.css">
-    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../css/main.css">
     <script type="module" src="../JS/browse.js" async></script>
     <title>Collancer | Browse</title>
 </head>
 <body>
     <header>
-        <h1 class="logo">Collancer</h1>
+        <div class="container-fluid p-3 bg-light">
+            <div style="margin-left: 30px;" class="row justify-content-start align-items-end">
+                <h1 style="margin-right: 20px;" class="display-4">Collancer</h1>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </div>
+                <button style="height: 40px; margin-left: 20px;" class="btn btn-primary" type="button">Go</button>
+            </div>
+            <div class="row">
+                <div class="col-xl-1 text-center">
+                    <a href="">Design</a>
+                </div>
+                <div class="col-xl-1 text-center">
+                    <a href="">Programming</a>
+                </div>
+                <div class="col-xl-1 text-center">
+                    <a href="">Tutoring</a>
+                </div>
+                <div class="col-xl-1 text-center">
+                    <a href="">Writing</a>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <section id="main-browse">
-        <div class="search-bar">
-            <input type="text" placeholder="Search for services...">
-            <button>Go</button>
+    <section id="job-grid">
+        <div class="container-md mt-5 mb-5">
+            <div class="row">
+                <h3 class="display-5">Top Services</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Design</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Head</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- top freelancers -->
+            <div class="row mt-5">
+                <h3 class="display-5">Top Freelancers</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Jon Beck</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Alice</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bob</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- services section -->
+            <div class="row mt-5">
+                <h3 class="display-5">Services</h3>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Programming</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <h2 class="test">Test</h2>
     </section>
+
+    <footer>
+        <div class="container-fluid p-4 bg-dark">
+            <div class="row align-items-center text-center justify-content-around text-light">
+                <div class="col-md-4">
+                    <h4>Collancer Ltd</h4>
+                </div>
+                <div class="col-md-4">
+                    <p>About</p>
+                    <p>Help</p>
+                </div>
+                <div class="col-md-4">
+                    <p>[Icons]</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
