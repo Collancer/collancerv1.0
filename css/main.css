@@ -73,3 +73,24 @@ input {
   background-color: #bdc3c7;
   border: none;
   margin-bottom: 3rem; }
+
+#profile .col-8 .edit-btn {
+  width: 60px;
+  height: 30px;
+  margin: 0.5rem; }
+
+#profile .col-8 button:first-child {
+  margin-right: 2rem; }
+
+/* ====================================== */
+/* NOTIFY FREELANCER PAGE */
+/* ====================================== */
+#freelancers .card {
+  height: 140px; }
+  #freelancers .card img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; }
+  #freelancers .card button {
+    height: 40px;
+    margin-right: 1rem; }

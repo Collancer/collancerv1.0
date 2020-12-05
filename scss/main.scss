@@ -100,5 +100,35 @@ input {
             border: none;
             margin-bottom: 3rem;
         }
+
+        .edit-btn {
+            width: 60px;
+            height: 30px;
+            margin: 0.5rem;
+        }
+
+        button:first-child {
+            margin-right: 2rem;
+        }
+    }
+}
+
+/* ====================================== */
+/* NOTIFY FREELANCER PAGE */
+/* ====================================== */
+#freelancers {
+    .card {
+        height: 140px;
+
+        img {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        button {
+            height: 40px;
+            margin-right: 1rem;
+        }
     }
 }
