@@ -24,22 +24,26 @@ header {
     }
 }
 
+.profile-pic-sm {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
 /* ====================================== */
 /* HOME PAGE */
 /* ====================================== */
-.jumbotron {
-    margin-top: 4rem;
-    width: 600px;
-}
-
-button {
-    height: 60px;
-    width: 100px;
-    align-self: center;
-}
-
-input {
-    background-color: grey;
+#main {
+    .jumbotron {
+        margin-top: 4rem;
+        width: 600px;
+    }
+    
+    button {
+        height: 60px;
+        width: 100px;
+        align-self: center;
+    }
 }
 
 /* SERVICES SECTION */
@@ -64,6 +68,15 @@ input {
 
     a {
         width: 150px;
+    }
+}
+
+/* ====================================== */
+/* BROWSE PAGE */
+/* ====================================== */
+#job-grid {
+    .fa-star {
+        color: #f1c40f;
     }
 }
 
@@ -120,15 +133,39 @@ input {
     .card {
         height: 140px;
 
-        img {
-            height: 100px;
-            width: 100px;
-            border-radius: 50%;
-        }
-
         button {
             height: 40px;
             margin-right: 1rem;
+        }
+    }
+}
+
+/* ====================================== */
+/* SERVICE DETAILS PAGE */
+/* ====================================== */
+#service-details {
+    .review-section {
+        margin-bottom: 4rem;
+    }
+
+    .col-md-8 {
+        .jumbotron {
+            height: 250px;
+        }
+        
+    }
+    .col-md-4 {
+        .jumbotron:first-child {
+            height: 500px;
+            background-color: $primary-color;
+            margin-bottom: 0;
+
+            img {
+                height: 200px;
+                width: 200px;
+                border-radius: 50%;
+                margin-bottom: 2rem;
+            }
         }
     }
 }
