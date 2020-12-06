@@ -22,12 +22,20 @@ header {
     .row:last-child {
         padding-left: 4rem;
     }
+
+    a {
+        width: 80px;
+    }
 }
 
 .profile-pic-sm {
     height: 100px;
     width: 100px;
     border-radius: 50%;
+}
+
+.fa-star {
+    color: #f1c40f;
 }
 
 /* ====================================== */
@@ -39,10 +47,10 @@ header {
         width: 600px;
     }
     
-    button {
+    a {
         height: 60px;
         width: 100px;
-        align-self: center;
+        padding-top: 0.75rem;
     }
 }
 
@@ -53,6 +61,14 @@ header {
 /* card class */
 .card {
     height: 400px;
+}
+
+#how-it-works {
+    padding: 6rem 0;
+}
+
+#advantages {
+    padding: 4rem 0;
 }
 
 /* ====================================== */
@@ -74,11 +90,7 @@ header {
 /* ====================================== */
 /* BROWSE PAGE */
 /* ====================================== */
-#job-grid {
-    .fa-star {
-        color: #f1c40f;
-    }
-}
+
 
 /* ====================================== */
 /* PROFILE PAGE */
