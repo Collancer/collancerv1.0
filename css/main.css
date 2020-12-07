@@ -16,10 +16,16 @@ a, a:hover {
 header .row:last-child {
   padding-left: 4rem; }
 
+header a {
+  width: 80px; }
+
 .profile-pic-sm {
   height: 100px;
   width: 100px;
   border-radius: 50%; }
+
+.fa-star {
+  color: #f1c40f; }
 
 /* ====================================== */
 /* HOME PAGE */
@@ -28,10 +34,10 @@ header .row:last-child {
   margin-top: 4rem;
   width: 600px; }
 
-#main button {
+#main a {
   height: 60px;
   width: 100px;
-  align-self: center; }
+  padding-top: 0.75rem; }
 
 /* SERVICES SECTION */
 #services {
@@ -40,6 +46,12 @@ header .row:last-child {
 /* card class */
 .card {
   height: 400px; }
+
+#how-it-works {
+  padding: 6rem 0; }
+
+#advantages {
+  padding: 4rem 0; }
 
 /* ====================================== */
 /* SIGN-UP PAGE */
@@ -55,9 +67,6 @@ header .row:last-child {
 /* ====================================== */
 /* BROWSE PAGE */
 /* ====================================== */
-#job-grid .fa-star {
-  color: #f1c40f; }
-
 /* ====================================== */
 /* PROFILE PAGE */
 /* ====================================== */
